@@ -1,12 +1,15 @@
-.login-form {
-  align-items: center;
+.login-form 
+{
+  align-items:center;
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-image: url('../images/fundo_nuvem2.jpg');
   justify-content: center;
 }
 
-.login__header {
+.login__header 
+{
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -14,19 +17,21 @@
   margin-bottom: 50px;
 }
 
-.login__header img {
+.login__header img 
+{
   width: 300px;
 }
 
-.login__header h1 {
-  color:cornflowerblue;
+.login__header h1 
+{
+  color:black;
   font-size: 1.5em;
 }
 
 .login__input {
-  border: 2px solid cornflowerblue ;
+  border: 2px solid black ;
   border-radius: 8px;
-  color: cornflowerblue;
+  color: black;
   font-size: 1em;
   margin-bottom: 15px;
   max-width: 300px;
@@ -35,7 +40,8 @@
   width: 100%;
 }
 
-.login__button {
+.login__button 
+{
   background-color:blue;
   border-radius: 8px;
   color: #fff;
@@ -46,8 +52,17 @@
   width: 100%;
 }
 
-.login__button:disabled {
+.login__button:disabled 
+{
   background-color: #eee;
   color: #aaa;
   cursor: auto;
 }
+
+.Container_body
+{
+  font-size: 5px;
+  padding-top: 100px;
+  
+}
+
